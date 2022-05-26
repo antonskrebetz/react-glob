@@ -1,4 +1,4 @@
-import LinkGenre from '../../common/linkGenre/linkGenre';
+import LinkGenre from '../linkGenre/linkGenre';
 import styles from './sortBar.module.scss';
 
 const SortBat = () => {
