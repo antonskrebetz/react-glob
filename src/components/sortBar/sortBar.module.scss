@@ -1,0 +1,51 @@
+.sortBar {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.genresBlock {
+    padding: 20px 0;
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdownWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.sortBy {
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    opacity: 0.6;
+}
+
+.select {
+    padding: 5px;
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--action);
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    &:focus {
+        outline: 1px solid var(--action);
+    }
+}
+
+.hr {
+    margin: 0 60px;
+    height: 3px;
+    background-color: var(--dark-gray);
+    border-bottom: 1px solid #080707;
+}
