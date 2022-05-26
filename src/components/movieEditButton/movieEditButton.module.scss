@@ -2,4 +2,12 @@
     position: absolute;
     top: 14px;
     right: 14px;
+
+    & circle {
+        transition: all 0.2s ease-in;
+    }
+
+    &:hover circle:first-child {
+        fill: var(--action);
+    }
 }

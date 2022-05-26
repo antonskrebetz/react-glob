@@ -37,6 +37,15 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        color: var(--white);
+
+        &:focus {
+            outline: 1px solid var(--white);
+        }
+    }
     
     &:focus {
         outline: 1px solid var(--action);

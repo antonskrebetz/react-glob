@@ -1,34 +1,38 @@
 .header {
-  padding-bottom: 100px;
-  background-image: url(../../assets/Bitmap.png);
+    padding-bottom: 100px;
+    background-image: url(../../assets/Bitmap.png);
 }
 
 .logoContainer {
-  margin-bottom: 45px;
-  padding: 20px 60px 0px;
-  display: flex;
-  justify-content: space-between;
+    margin-bottom: 45px;
+    padding: 20px 60px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 .searchBar {
-  padding: 0 120px;
+    padding: 0 120px;
 }
 
 .searchButton {
-  width: 225px;
-  color: var(--white);
-  font-weight: 500;
-  background-color: var(--action);
-  border: none;
+    width: 225px;
+    color: var(--white);
+    font-weight: 500;
+    background-color: var(--action);
+    border: none;
 }
 
 .title {
-  margin-bottom: 40px;
-  font-size: 40px;
-  font-weight: 300;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .searchPanel {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }

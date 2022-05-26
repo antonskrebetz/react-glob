@@ -8,7 +8,7 @@ const Header = (): JSX.Element => {
     return (
         <div className={styles.header}>
             <div className={styles.logoContainer}>
-                <img src={logo} alt="logo" />
+                <img className={styles.logo} src={logo} alt="logo" />
                 <ButtonAddMovie value={'+ add movie'} />
             </div>
             <div className={styles.searchBar}>
@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default Header;
